@@ -59,7 +59,7 @@
             this.lblMail.BackColor = System.Drawing.Color.Transparent;
             this.lblMail.Font = new System.Drawing.Font("Trajan Pro", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblMail.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(213)))));
-            this.lblMail.Location = new System.Drawing.Point(448, 139);
+            this.lblMail.Location = new System.Drawing.Point(286, 150);
             this.lblMail.Name = "lblMail";
             this.lblMail.Size = new System.Drawing.Size(76, 30);
             this.lblMail.TabIndex = 20;
@@ -71,7 +71,7 @@
             this.lblTelefon.BackColor = System.Drawing.Color.Transparent;
             this.lblTelefon.Font = new System.Drawing.Font("Trajan Pro", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTelefon.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(213)))));
-            this.lblTelefon.Location = new System.Drawing.Point(224, 280);
+            this.lblTelefon.Location = new System.Drawing.Point(119, 298);
             this.lblTelefon.Name = "lblTelefon";
             this.lblTelefon.Size = new System.Drawing.Size(205, 44);
             this.lblTelefon.TabIndex = 22;
@@ -83,7 +83,7 @@
             this.lblIsimSoyisim.BackColor = System.Drawing.Color.Transparent;
             this.lblIsimSoyisim.Font = new System.Drawing.Font("Trajan Pro", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblIsimSoyisim.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(213)))));
-            this.lblIsimSoyisim.Location = new System.Drawing.Point(445, 95);
+            this.lblIsimSoyisim.Location = new System.Drawing.Point(283, 106);
             this.lblIsimSoyisim.Name = "lblIsimSoyisim";
             this.lblIsimSoyisim.Size = new System.Drawing.Size(253, 44);
             this.lblIsimSoyisim.TabIndex = 24;
@@ -92,7 +92,7 @@
             // pcbAvukatResim
             // 
             this.pcbAvukatResim.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(213)))));
-            this.pcbAvukatResim.Location = new System.Drawing.Point(289, 95);
+            this.pcbAvukatResim.Location = new System.Drawing.Point(127, 106);
             this.pcbAvukatResim.Name = "pcbAvukatResim";
             this.pcbAvukatResim.Size = new System.Drawing.Size(150, 150);
             this.pcbAvukatResim.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
