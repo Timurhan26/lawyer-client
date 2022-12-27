@@ -211,6 +211,7 @@
             this.btnKayitOl.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(213)))));
             this.btnKayitOl.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnKayitOl.Font = new System.Drawing.Font("Trajan Pro", 18F);
+            this.btnKayitOl.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(59)))), ((int)(((byte)(60)))));
             this.btnKayitOl.Location = new System.Drawing.Point(416, 496);
             this.btnKayitOl.Name = "btnKayitOl";
             this.btnKayitOl.Size = new System.Drawing.Size(169, 77);

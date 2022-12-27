@@ -135,6 +135,7 @@
             this.btnGirisYap.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(213)))));
             this.btnGirisYap.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnGirisYap.Font = new System.Drawing.Font("Trajan Pro", 18F);
+            this.btnGirisYap.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(59)))), ((int)(((byte)(60)))));
             this.btnGirisYap.Location = new System.Drawing.Point(301, 461);
             this.btnGirisYap.Name = "btnGirisYap";
             this.btnGirisYap.Size = new System.Drawing.Size(169, 77);
@@ -147,6 +148,7 @@
             this.btnKayitOl.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(213)))));
             this.btnKayitOl.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnKayitOl.Font = new System.Drawing.Font("Trajan Pro", 18F);
+            this.btnKayitOl.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(59)))), ((int)(((byte)(60)))));
             this.btnKayitOl.Location = new System.Drawing.Point(531, 461);
             this.btnKayitOl.Name = "btnKayitOl";
             this.btnKayitOl.Size = new System.Drawing.Size(169, 77);

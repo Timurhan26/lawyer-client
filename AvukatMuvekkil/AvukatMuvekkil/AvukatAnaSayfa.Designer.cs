@@ -30,7 +30,7 @@
         {
             this.btnKucult = new System.Windows.Forms.Button();
             this.btnKapat = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pcbAvukatResim = new System.Windows.Forms.PictureBox();
             this.lblIsimSoyisim = new System.Windows.Forms.Label();
             this.lblMail = new System.Windows.Forms.Label();
             this.lblTCKNO = new System.Windows.Forms.Label();
@@ -38,9 +38,8 @@
             this.label1 = new System.Windows.Forms.Label();
             this.radioMusait = new System.Windows.Forms.RadioButton();
             this.radioMesgul = new System.Windows.Forms.RadioButton();
-            this.btnGuncelle = new System.Windows.Forms.Button();
             this.btnCikis = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pcbAvukatResim)).BeginInit();
             this.SuspendLayout();
             // 
             // btnKucult
@@ -73,15 +72,15 @@
             this.btnKapat.UseVisualStyleBackColor = false;
             this.btnKapat.Click += new System.EventHandler(this.btnKapat_Click);
             // 
-            // pictureBox1
+            // pcbAvukatResim
             // 
-            this.pictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(213)))));
-            this.pictureBox1.Location = new System.Drawing.Point(187, 42);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(150, 150);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 11;
-            this.pictureBox1.TabStop = false;
+            this.pcbAvukatResim.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(213)))));
+            this.pcbAvukatResim.Location = new System.Drawing.Point(187, 50);
+            this.pcbAvukatResim.Name = "pcbAvukatResim";
+            this.pcbAvukatResim.Size = new System.Drawing.Size(150, 150);
+            this.pcbAvukatResim.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pcbAvukatResim.TabIndex = 11;
+            this.pcbAvukatResim.TabStop = false;
             // 
             // lblIsimSoyisim
             // 
@@ -89,7 +88,7 @@
             this.lblIsimSoyisim.BackColor = System.Drawing.Color.Transparent;
             this.lblIsimSoyisim.Font = new System.Drawing.Font("Trajan Pro", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblIsimSoyisim.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(213)))));
-            this.lblIsimSoyisim.Location = new System.Drawing.Point(343, 42);
+            this.lblIsimSoyisim.Location = new System.Drawing.Point(343, 50);
             this.lblIsimSoyisim.Name = "lblIsimSoyisim";
             this.lblIsimSoyisim.Size = new System.Drawing.Size(253, 44);
             this.lblIsimSoyisim.TabIndex = 12;
@@ -101,7 +100,7 @@
             this.lblMail.BackColor = System.Drawing.Color.Transparent;
             this.lblMail.Font = new System.Drawing.Font("Trajan Pro", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblMail.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(213)))));
-            this.lblMail.Location = new System.Drawing.Point(346, 86);
+            this.lblMail.Location = new System.Drawing.Point(346, 94);
             this.lblMail.Name = "lblMail";
             this.lblMail.Size = new System.Drawing.Size(76, 30);
             this.lblMail.TabIndex = 12;
@@ -113,7 +112,7 @@
             this.lblTCKNO.BackColor = System.Drawing.Color.Transparent;
             this.lblTCKNO.Font = new System.Drawing.Font("Trajan Pro", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTCKNO.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(213)))));
-            this.lblTCKNO.Location = new System.Drawing.Point(179, 221);
+            this.lblTCKNO.Location = new System.Drawing.Point(179, 229);
             this.lblTCKNO.Name = "lblTCKNO";
             this.lblTCKNO.Size = new System.Drawing.Size(191, 44);
             this.lblTCKNO.TabIndex = 12;
@@ -125,7 +124,7 @@
             this.lblTelefon.BackColor = System.Drawing.Color.Transparent;
             this.lblTelefon.Font = new System.Drawing.Font("Trajan Pro", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTelefon.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(213)))));
-            this.lblTelefon.Location = new System.Drawing.Point(179, 287);
+            this.lblTelefon.Location = new System.Drawing.Point(179, 295);
             this.lblTelefon.Name = "lblTelefon";
             this.lblTelefon.Size = new System.Drawing.Size(205, 44);
             this.lblTelefon.TabIndex = 12;
@@ -137,7 +136,7 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Trajan Pro", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(213)))));
-            this.label1.Location = new System.Drawing.Point(179, 395);
+            this.label1.Location = new System.Drawing.Point(179, 403);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(189, 44);
             this.label1.TabIndex = 12;
@@ -149,7 +148,7 @@
             this.radioMusait.BackColor = System.Drawing.Color.Transparent;
             this.radioMusait.Font = new System.Drawing.Font("Trajan Pro", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioMusait.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(213)))));
-            this.radioMusait.Location = new System.Drawing.Point(647, 395);
+            this.radioMusait.Location = new System.Drawing.Point(647, 403);
             this.radioMusait.Name = "radioMusait";
             this.radioMusait.Size = new System.Drawing.Size(175, 48);
             this.radioMusait.TabIndex = 13;
@@ -163,7 +162,7 @@
             this.radioMesgul.BackColor = System.Drawing.Color.Transparent;
             this.radioMesgul.Font = new System.Drawing.Font("Trajan Pro", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioMesgul.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(213)))));
-            this.radioMesgul.Location = new System.Drawing.Point(442, 395);
+            this.radioMesgul.Location = new System.Drawing.Point(442, 403);
             this.radioMesgul.Name = "radioMesgul";
             this.radioMesgul.Size = new System.Drawing.Size(183, 48);
             this.radioMesgul.TabIndex = 13;
@@ -171,26 +170,13 @@
             this.radioMesgul.Text = "Meşgul";
             this.radioMesgul.UseVisualStyleBackColor = false;
             // 
-            // btnGuncelle
-            // 
-            this.btnGuncelle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(213)))));
-            this.btnGuncelle.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnGuncelle.Font = new System.Drawing.Font("Trajan Pro", 18F);
-            this.btnGuncelle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(59)))), ((int)(((byte)(60)))));
-            this.btnGuncelle.Location = new System.Drawing.Point(295, 506);
-            this.btnGuncelle.Name = "btnGuncelle";
-            this.btnGuncelle.Size = new System.Drawing.Size(169, 77);
-            this.btnGuncelle.TabIndex = 16;
-            this.btnGuncelle.Text = "Güncelle";
-            this.btnGuncelle.UseVisualStyleBackColor = false;
-            // 
             // btnCikis
             // 
             this.btnCikis.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(213)))));
             this.btnCikis.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCikis.Font = new System.Drawing.Font("Trajan Pro", 18F);
             this.btnCikis.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(59)))), ((int)(((byte)(60)))));
-            this.btnCikis.Location = new System.Drawing.Point(536, 506);
+            this.btnCikis.Location = new System.Drawing.Point(416, 523);
             this.btnCikis.Name = "btnCikis";
             this.btnCikis.Size = new System.Drawing.Size(169, 77);
             this.btnCikis.TabIndex = 16;
@@ -204,7 +190,6 @@
             this.BackgroundImage = global::AvukatMuvekkil.Properties.Resources.background;
             this.ClientSize = new System.Drawing.Size(1000, 650);
             this.Controls.Add(this.btnCikis);
-            this.Controls.Add(this.btnGuncelle);
             this.Controls.Add(this.radioMesgul);
             this.Controls.Add(this.radioMusait);
             this.Controls.Add(this.lblMail);
@@ -212,14 +197,14 @@
             this.Controls.Add(this.lblTelefon);
             this.Controls.Add(this.lblTCKNO);
             this.Controls.Add(this.lblIsimSoyisim);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.pcbAvukatResim);
             this.Controls.Add(this.btnKucult);
             this.Controls.Add(this.btnKapat);
             this.ForeColor = System.Drawing.SystemColors.ControlText;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "AvukatAnaSayfa";
             this.Text = "AvukatAnaSayfa";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pcbAvukatResim)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -229,7 +214,7 @@
 
         private System.Windows.Forms.Button btnKucult;
         private System.Windows.Forms.Button btnKapat;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pcbAvukatResim;
         private System.Windows.Forms.Label lblIsimSoyisim;
         private System.Windows.Forms.Label lblMail;
         private System.Windows.Forms.Label lblTCKNO;
@@ -237,7 +222,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.RadioButton radioMusait;
         private System.Windows.Forms.RadioButton radioMesgul;
-        private System.Windows.Forms.Button btnGuncelle;
         private System.Windows.Forms.Button btnCikis;
     }
 }
