@@ -33,8 +33,8 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtEposta = new System.Windows.Forms.TextBox();
+            this.txtSifre = new System.Windows.Forms.TextBox();
             this.btnGirisYap = new System.Windows.Forms.Button();
             this.btnKayitOl = new System.Windows.Forms.Button();
             this.SuspendLayout();
@@ -99,36 +99,36 @@
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Trajan Pro", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(213)))));
-            this.label3.Location = new System.Drawing.Point(214, 324);
+            this.label3.Location = new System.Drawing.Point(264, 324);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(114, 44);
             this.label3.TabIndex = 5;
             this.label3.Text = "Şifre";
             // 
-            // textBox1
+            // txtEposta
             // 
-            this.textBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(76)))), ((int)(((byte)(75)))));
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox1.Font = new System.Drawing.Font("Trajan Pro", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(213)))));
-            this.textBox1.Location = new System.Drawing.Point(450, 257);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(337, 44);
-            this.textBox1.TabIndex = 6;
+            this.txtEposta.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(76)))), ((int)(((byte)(75)))));
+            this.txtEposta.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtEposta.Font = new System.Drawing.Font("Trajan Pro", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtEposta.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(213)))));
+            this.txtEposta.Location = new System.Drawing.Point(450, 257);
+            this.txtEposta.Multiline = true;
+            this.txtEposta.Name = "txtEposta";
+            this.txtEposta.Size = new System.Drawing.Size(337, 44);
+            this.txtEposta.TabIndex = 6;
             // 
-            // textBox2
+            // txtSifre
             // 
-            this.textBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(76)))), ((int)(((byte)(75)))));
-            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox2.Font = new System.Drawing.Font("Trajan Pro", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(213)))));
-            this.textBox2.Location = new System.Drawing.Point(450, 324);
-            this.textBox2.Multiline = true;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.PasswordChar = 'x';
-            this.textBox2.Size = new System.Drawing.Size(337, 44);
-            this.textBox2.TabIndex = 6;
+            this.txtSifre.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(76)))), ((int)(((byte)(75)))));
+            this.txtSifre.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtSifre.Font = new System.Drawing.Font("Trajan Pro", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSifre.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(213)))));
+            this.txtSifre.Location = new System.Drawing.Point(450, 324);
+            this.txtSifre.Multiline = true;
+            this.txtSifre.Name = "txtSifre";
+            this.txtSifre.PasswordChar = 'x';
+            this.txtSifre.Size = new System.Drawing.Size(337, 44);
+            this.txtSifre.TabIndex = 6;
             // 
             // btnGirisYap
             // 
@@ -162,8 +162,8 @@
             this.ClientSize = new System.Drawing.Size(1000, 650);
             this.Controls.Add(this.btnKayitOl);
             this.Controls.Add(this.btnGirisYap);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtSifre);
+            this.Controls.Add(this.txtEposta);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -184,8 +184,8 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txtEposta;
+        private System.Windows.Forms.TextBox txtSifre;
         private System.Windows.Forms.Button btnGirisYap;
         private System.Windows.Forms.Button btnKayitOl;
     }

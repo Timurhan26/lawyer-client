@@ -16,5 +16,15 @@ namespace AvukatMuvekkil
         {
             InitializeComponent();
         }
+
+        private void btnKapat_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void btnKucult_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+        }
     }
 }
