@@ -10,21 +10,21 @@ using System.Windows.Forms;
 
 namespace AvukatMuvekkil
 {
-    public partial class GirisSayfasi : Form
+    public partial class MuvekkilGiris : Form
     {
-        public GirisSayfasi()
+        public MuvekkilGiris()
         {
             InitializeComponent();
-        }
-
-        private void btnKapat_Click(object sender, EventArgs e)
-        {
-            Application.Exit();
         }
 
         private void btnKucult_Click(object sender, EventArgs e)
         {
             this.WindowState = FormWindowState.Minimized;
+        }
+
+        private void btnKapat_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

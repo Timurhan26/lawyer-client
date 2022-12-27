@@ -9,3 +9,4 @@ C:\Users\HP\Documents\GitHub\lawyer-client\AvukatMuvekkil\AvukatMuvekkil\obj\Deb
 C:\Users\HP\Documents\GitHub\lawyer-client\AvukatMuvekkil\AvukatMuvekkil\obj\Debug\AvukatMuvekkil.csproj.CoreCompileInputs.cache
 C:\Users\HP\Documents\GitHub\lawyer-client\AvukatMuvekkil\AvukatMuvekkil\obj\Debug\AvukatMuvekkil.exe
 C:\Users\HP\Documents\GitHub\lawyer-client\AvukatMuvekkil\AvukatMuvekkil\obj\Debug\AvukatMuvekkil.pdb
+C:\Users\HP\Documents\GitHub\lawyer-client\AvukatMuvekkil\AvukatMuvekkil\obj\Debug\AvukatMuvekkil.MuvekkilGiris.resources

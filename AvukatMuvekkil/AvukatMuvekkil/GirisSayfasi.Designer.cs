@@ -87,6 +87,7 @@
             this.btnKapat.TabIndex = 2;
             this.btnKapat.Text = "X";
             this.btnKapat.UseVisualStyleBackColor = false;
+            this.btnKapat.Click += new System.EventHandler(this.btnKapat_Click);
             // 
             // btnKucult
             // 
@@ -100,6 +101,7 @@
             this.btnKucult.TabIndex = 2;
             this.btnKucult.Text = "_";
             this.btnKucult.UseVisualStyleBackColor = false;
+            this.btnKucult.Click += new System.EventHandler(this.btnKucult_Click);
             // 
             // GirisSayfasi
             // 

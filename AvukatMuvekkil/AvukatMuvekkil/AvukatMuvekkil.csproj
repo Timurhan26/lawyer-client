@@ -52,10 +52,25 @@
     <Compile Include="GirisSayfasi.Designer.cs">
       <DependentUpon>GirisSayfasi.cs</DependentUpon>
     </Compile>
+    <Compile Include="MuvekkilGiris.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MuvekkilGiris.Designer.cs">
+      <DependentUpon>MuvekkilGiris.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MuvekkilKayit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MuvekkilKayit.Designer.cs">
+      <DependentUpon>MuvekkilKayit.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="GirisSayfasi.resx">
       <DependentUpon>GirisSayfasi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MuvekkilGiris.resx">
+      <DependentUpon>MuvekkilGiris.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
