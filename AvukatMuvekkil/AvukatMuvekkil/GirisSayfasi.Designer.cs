@@ -51,7 +51,7 @@
             // 
             this.btnMuvekkil.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(213)))));
             this.btnMuvekkil.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnMuvekkil.Font = new System.Drawing.Font("Trajan Pro", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnMuvekkil.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnMuvekkil.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(59)))), ((int)(((byte)(60)))));
             this.btnMuvekkil.Location = new System.Drawing.Point(30, 441);
             this.btnMuvekkil.Name = "btnMuvekkil";
@@ -59,12 +59,13 @@
             this.btnMuvekkil.TabIndex = 1;
             this.btnMuvekkil.Text = "Müvekkil";
             this.btnMuvekkil.UseVisualStyleBackColor = false;
+            this.btnMuvekkil.Click += new System.EventHandler(this.btnMuvekkil_Click);
             // 
             // btnAvukat
             // 
             this.btnAvukat.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(213)))));
             this.btnAvukat.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAvukat.Font = new System.Drawing.Font("Trajan Pro", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnAvukat.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnAvukat.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(59)))), ((int)(((byte)(60)))));
             this.btnAvukat.Location = new System.Drawing.Point(538, 441);
             this.btnAvukat.Name = "btnAvukat";
@@ -72,6 +73,7 @@
             this.btnAvukat.TabIndex = 1;
             this.btnAvukat.Text = "Avukat";
             this.btnAvukat.UseVisualStyleBackColor = false;
+            this.btnAvukat.Click += new System.EventHandler(this.btnAvukat_Click);
             // 
             // btnKapat
             // 

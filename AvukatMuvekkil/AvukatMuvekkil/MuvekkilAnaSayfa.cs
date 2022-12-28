@@ -17,7 +17,7 @@ namespace AvukatMuvekkil
             InitializeComponent();
             this.StartPosition = FormStartPosition.CenterScreen;
         }
-
+        public string kulAd, eposta;
         private void btnKapat_Click(object sender, EventArgs e)
         {
             Application.Exit();
