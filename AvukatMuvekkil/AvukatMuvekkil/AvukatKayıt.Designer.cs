@@ -44,6 +44,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.txtTCKNO = new System.Windows.Forms.TextBox();
+            this.btnGeri = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnKucult
@@ -245,12 +246,27 @@
             this.txtTCKNO.Size = new System.Drawing.Size(337, 29);
             this.txtTCKNO.TabIndex = 21;
             // 
+            // btnGeri
+            // 
+            this.btnGeri.BackColor = System.Drawing.Color.Transparent;
+            this.btnGeri.BackgroundImage = global::AvukatMuvekkil.Properties.Resources.icons8_left_100;
+            this.btnGeri.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnGeri.FlatAppearance.BorderSize = 0;
+            this.btnGeri.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnGeri.ForeColor = System.Drawing.Color.Transparent;
+            this.btnGeri.Location = new System.Drawing.Point(12, 12);
+            this.btnGeri.Name = "btnGeri";
+            this.btnGeri.Size = new System.Drawing.Size(47, 38);
+            this.btnGeri.TabIndex = 30;
+            this.btnGeri.UseVisualStyleBackColor = false;
+            // 
             // AvukatKayıt
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::AvukatMuvekkil.Properties.Resources.background;
             this.ClientSize = new System.Drawing.Size(1000, 650);
+            this.Controls.Add(this.btnGeri);
             this.Controls.Add(this.btnKayitOl);
             this.Controls.Add(this.txtSifreTekrar);
             this.Controls.Add(this.label6);
@@ -293,5 +309,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.TextBox txtTCKNO;
+        private System.Windows.Forms.Button btnGeri;
     }
 }
