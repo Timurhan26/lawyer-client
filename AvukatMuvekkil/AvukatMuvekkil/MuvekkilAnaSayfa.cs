@@ -15,6 +15,7 @@ namespace AvukatMuvekkil
         public MuvekkilAnaSayfa()
         {
             InitializeComponent();
+            this.StartPosition = FormStartPosition.CenterScreen;
         }
 
         private void btnKapat_Click(object sender, EventArgs e)
@@ -25,6 +26,10 @@ namespace AvukatMuvekkil
         private void btnKucult_Click(object sender, EventArgs e)
         {
             this.WindowState = FormWindowState.Minimized;
+        }
+
+        private void MuvekkilAnaSayfa_Load(object sender, EventArgs e)
+        {
         }
     }
 }

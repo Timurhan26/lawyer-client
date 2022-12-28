@@ -242,6 +242,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "MuvekkilKayit";
             this.Text = "MuvekkilGiris";
+            this.Load += new System.EventHandler(this.MuvekkilKayit_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

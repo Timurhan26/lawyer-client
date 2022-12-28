@@ -119,6 +119,7 @@
             this.MinimumSize = new System.Drawing.Size(1000, 650);
             this.Name = "GirisSayfasi";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.GirisSayfasi_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 

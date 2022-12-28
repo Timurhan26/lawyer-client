@@ -159,6 +159,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "AvukatGiris";
             this.Text = "AvukatGiris";
+            this.Load += new System.EventHandler(this.AvukatGiris_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

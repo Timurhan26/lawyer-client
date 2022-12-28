@@ -10,3 +10,9 @@ C:\Users\HP\Documents\GitHub\lawyer-client\AvukatMuvekkil\AvukatMuvekkil\obj\Deb
 C:\Users\HP\Documents\GitHub\lawyer-client\AvukatMuvekkil\AvukatMuvekkil\obj\Debug\AvukatMuvekkil.exe
 C:\Users\HP\Documents\GitHub\lawyer-client\AvukatMuvekkil\AvukatMuvekkil\obj\Debug\AvukatMuvekkil.pdb
 C:\Users\HP\Documents\GitHub\lawyer-client\AvukatMuvekkil\AvukatMuvekkil\obj\Debug\AvukatMuvekkil.MuvekkilGiris.resources
+C:\Users\HP\Documents\GitHub\lawyer-client\AvukatMuvekkil\AvukatMuvekkil\obj\Debug\AvukatMuvekkil.AvukatAnaSayfa.resources
+C:\Users\HP\Documents\GitHub\lawyer-client\AvukatMuvekkil\AvukatMuvekkil\obj\Debug\AvukatMuvekkil.AvukatBilgiGoruntuleme.resources
+C:\Users\HP\Documents\GitHub\lawyer-client\AvukatMuvekkil\AvukatMuvekkil\obj\Debug\AvukatMuvekkil.AvukatGiris.resources
+C:\Users\HP\Documents\GitHub\lawyer-client\AvukatMuvekkil\AvukatMuvekkil\obj\Debug\AvukatMuvekkil.AvukatListeleme.resources
+C:\Users\HP\Documents\GitHub\lawyer-client\AvukatMuvekkil\AvukatMuvekkil\obj\Debug\AvukatMuvekkil.MuvekkilAnaSayfa.resources
+C:\Users\HP\Documents\GitHub\lawyer-client\AvukatMuvekkil\AvukatMuvekkil\obj\Debug\AvukatMuvekkil.MuvekkilKayit.resources

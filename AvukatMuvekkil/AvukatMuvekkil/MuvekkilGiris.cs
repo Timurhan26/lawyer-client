@@ -15,6 +15,7 @@ namespace AvukatMuvekkil
         public MuvekkilGiris()
         {
             InitializeComponent();
+            this.StartPosition = FormStartPosition.CenterScreen;
         }
 
         private void btnKucult_Click(object sender, EventArgs e)
@@ -25,6 +26,10 @@ namespace AvukatMuvekkil
         private void btnKapat_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void MuvekkilGiris_Load(object sender, EventArgs e)
+        {
         }
     }
 }

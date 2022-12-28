@@ -159,6 +159,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "MuvekkilAnaSayfa";
             this.Text = "MuvekkilAnaSayfa";
+            this.Load += new System.EventHandler(this.MuvekkilAnaSayfa_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pcbMuvekkilResim)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

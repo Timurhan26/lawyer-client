@@ -174,6 +174,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "AvukatBilgiGoruntuleme";
             this.Text = "AvukatBilgiGoruntuleme";
+            this.Load += new System.EventHandler(this.AvukatBilgiGoruntuleme_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pcbAvukatResim)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

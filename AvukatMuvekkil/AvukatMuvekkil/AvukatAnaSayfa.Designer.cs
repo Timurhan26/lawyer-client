@@ -204,6 +204,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "AvukatAnaSayfa";
             this.Text = "AvukatAnaSayfa";
+            this.Load += new System.EventHandler(this.AvukatAnaSayfa_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pcbAvukatResim)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -174,6 +174,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "MuvekkilGiris";
             this.Text = "MuvekkilGiris";
+            this.Load += new System.EventHandler(this.MuvekkilGiris_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

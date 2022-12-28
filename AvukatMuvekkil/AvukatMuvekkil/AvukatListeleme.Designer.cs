@@ -129,6 +129,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "AvukatListeleme";
             this.Text = "AvukatListeleme";
+            this.Load += new System.EventHandler(this.AvukatListeleme_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgwAvukatlar)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

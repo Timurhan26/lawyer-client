@@ -16,7 +16,7 @@ namespace AvukatMuvekkil
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new MuvekkilGiris());
+            Application.Run(new GirisSayfasi());
         }
     }
 }

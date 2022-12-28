@@ -15,6 +15,8 @@ namespace AvukatMuvekkil
         public AvukatBilgiGoruntuleme()
         {
             InitializeComponent();
+
+            StartPosition = FormStartPosition.CenterScreen;
         }
 
         private void btnKapat_Click(object sender, EventArgs e)
@@ -25,6 +27,10 @@ namespace AvukatMuvekkil
         private void btnKucult_Click(object sender, EventArgs e)
         {
             this.WindowState = FormWindowState.Minimized;
+        }
+
+        private void AvukatBilgiGoruntuleme_Load(object sender, EventArgs e)
+        {
         }
     }
 }
