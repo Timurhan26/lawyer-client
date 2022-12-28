@@ -64,7 +64,7 @@ namespace AvukatMuvekkil
                 }
                 else
                 {
-                    MessageBox.Show("Tc veya Şifre hatalı");
+                    MessageBox.Show("Eposta veya Şifre hatalı");
                 }
                 Baglan.con.Close();
             }
