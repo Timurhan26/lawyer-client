@@ -32,5 +32,12 @@ namespace AvukatMuvekkil
         private void GirisSayfasi_Load(object sender, EventArgs e)
         {
         }
+
+        private void btnMuvekkil_Click(object sender, EventArgs e)
+        {
+            MuvekkilGiris fr = new MuvekkilGiris();
+            fr.Show();
+            this.Hide();
+        }
     }
 }
