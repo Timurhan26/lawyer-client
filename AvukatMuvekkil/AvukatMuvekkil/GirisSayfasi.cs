@@ -29,13 +29,16 @@ namespace AvukatMuvekkil
             this.WindowState = FormWindowState.Minimized;
         }
 
-        private void GirisSayfasi_Load(object sender, EventArgs e)
-        {
-        }
-
         private void btnMuvekkil_Click(object sender, EventArgs e)
         {
             MuvekkilGiris fr = new MuvekkilGiris();
+            fr.Show();
+            this.Hide();
+        }
+
+        private void btnAvukat_Click(object sender, EventArgs e)
+        {
+            AvukatGiris fr = new AvukatGiris();
             fr.Show();
             this.Hide();
         }

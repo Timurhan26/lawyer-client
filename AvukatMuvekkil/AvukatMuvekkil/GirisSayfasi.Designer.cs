@@ -73,6 +73,7 @@
             this.btnAvukat.TabIndex = 1;
             this.btnAvukat.Text = "Avukat";
             this.btnAvukat.UseVisualStyleBackColor = false;
+            this.btnAvukat.Click += new System.EventHandler(this.btnAvukat_Click);
             // 
             // btnKapat
             // 
@@ -120,7 +121,6 @@
             this.MinimumSize = new System.Drawing.Size(1000, 650);
             this.Name = "GirisSayfasi";
             this.Text = "Form1";
-            this.Load += new System.EventHandler(this.GirisSayfasi_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 

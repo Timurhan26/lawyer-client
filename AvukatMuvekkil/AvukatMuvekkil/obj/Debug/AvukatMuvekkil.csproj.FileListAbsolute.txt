@@ -34,3 +34,12 @@ C:\Users\sukud\OneDrive\Belgeler\GitHub\lawyer-client\AvukatMuvekkil\AvukatMuvek
 C:\Users\sukud\OneDrive\Belgeler\GitHub\lawyer-client\AvukatMuvekkil\AvukatMuvekkil\obj\Debug\AvukatMuvekkil.csproj.CoreCompileInputs.cache
 C:\Users\sukud\OneDrive\Belgeler\GitHub\lawyer-client\AvukatMuvekkil\AvukatMuvekkil\obj\Debug\AvukatMuvekkil.exe
 C:\Users\sukud\OneDrive\Belgeler\GitHub\lawyer-client\AvukatMuvekkil\AvukatMuvekkil\obj\Debug\AvukatMuvekkil.pdb
+C:\Users\sukud\OneDrive\Belgeler\GitHub\lawyer-client\AvukatMuvekkil\AvukatMuvekkil\bin\Debug\EntityFramework.dll
+C:\Users\sukud\OneDrive\Belgeler\GitHub\lawyer-client\AvukatMuvekkil\AvukatMuvekkil\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\sukud\OneDrive\Belgeler\GitHub\lawyer-client\AvukatMuvekkil\AvukatMuvekkil\bin\Debug\System.Data.SQLite.dll
+C:\Users\sukud\OneDrive\Belgeler\GitHub\lawyer-client\AvukatMuvekkil\AvukatMuvekkil\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\sukud\OneDrive\Belgeler\GitHub\lawyer-client\AvukatMuvekkil\AvukatMuvekkil\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\sukud\OneDrive\Belgeler\GitHub\lawyer-client\AvukatMuvekkil\AvukatMuvekkil\bin\Debug\EntityFramework.xml
+C:\Users\sukud\OneDrive\Belgeler\GitHub\lawyer-client\AvukatMuvekkil\AvukatMuvekkil\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\sukud\OneDrive\Belgeler\GitHub\lawyer-client\AvukatMuvekkil\AvukatMuvekkil\bin\Debug\System.Data.SQLite.xml
+C:\Users\sukud\OneDrive\Belgeler\GitHub\lawyer-client\AvukatMuvekkil\AvukatMuvekkil\obj\Debug\AvukatMuvekkil.csproj.CopyComplete

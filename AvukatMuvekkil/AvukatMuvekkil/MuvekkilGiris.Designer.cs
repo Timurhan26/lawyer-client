@@ -73,11 +73,11 @@
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Trajan Pro", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(213)))));
             this.label1.Location = new System.Drawing.Point(420, 88);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(160, 60);
+            this.label1.Size = new System.Drawing.Size(121, 55);
             this.label1.TabIndex = 5;
             this.label1.Text = "Giriş";
             // 
@@ -85,11 +85,11 @@
             // 
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("Trajan Pro", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(213)))));
             this.label2.Location = new System.Drawing.Point(214, 257);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(164, 44);
+            this.label2.Size = new System.Drawing.Size(141, 39);
             this.label2.TabIndex = 5;
             this.label2.Text = "E-Posta";
             // 
@@ -97,11 +97,11 @@
             // 
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Transparent;
-            this.label3.Font = new System.Drawing.Font("Trajan Pro", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(213)))));
             this.label3.Location = new System.Drawing.Point(264, 324);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(114, 44);
+            this.label3.Size = new System.Drawing.Size(89, 39);
             this.label3.TabIndex = 5;
             this.label3.Text = "Şifre";
             // 
@@ -109,32 +109,34 @@
             // 
             this.txtEposta.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(76)))), ((int)(((byte)(75)))));
             this.txtEposta.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtEposta.Font = new System.Drawing.Font("Trajan Pro", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtEposta.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtEposta.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(213)))));
             this.txtEposta.Location = new System.Drawing.Point(450, 257);
             this.txtEposta.Multiline = true;
             this.txtEposta.Name = "txtEposta";
             this.txtEposta.Size = new System.Drawing.Size(337, 44);
-            this.txtEposta.TabIndex = 6;
+            this.txtEposta.TabIndex = 1;
+            this.txtEposta.Text = "halil234@gmail.com";
             // 
             // txtSifre
             // 
             this.txtSifre.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(76)))), ((int)(((byte)(75)))));
             this.txtSifre.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtSifre.Font = new System.Drawing.Font("Trajan Pro", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSifre.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtSifre.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(213)))));
             this.txtSifre.Location = new System.Drawing.Point(450, 324);
             this.txtSifre.Multiline = true;
             this.txtSifre.Name = "txtSifre";
             this.txtSifre.PasswordChar = 'x';
             this.txtSifre.Size = new System.Drawing.Size(337, 44);
-            this.txtSifre.TabIndex = 6;
+            this.txtSifre.TabIndex = 2;
+            this.txtSifre.Text = "2222";
             // 
             // btnGirisYap
             // 
             this.btnGirisYap.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(213)))));
             this.btnGirisYap.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnGirisYap.Font = new System.Drawing.Font("Trajan Pro", 18F);
+            this.btnGirisYap.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F);
             this.btnGirisYap.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(59)))), ((int)(((byte)(60)))));
             this.btnGirisYap.Location = new System.Drawing.Point(301, 461);
             this.btnGirisYap.Name = "btnGirisYap";
@@ -142,12 +144,13 @@
             this.btnGirisYap.TabIndex = 7;
             this.btnGirisYap.Text = "Giriş Yap";
             this.btnGirisYap.UseVisualStyleBackColor = false;
+            this.btnGirisYap.Click += new System.EventHandler(this.btnGirisYap_Click);
             // 
             // btnKayitOl
             // 
             this.btnKayitOl.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(213)))));
             this.btnKayitOl.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnKayitOl.Font = new System.Drawing.Font("Trajan Pro", 18F);
+            this.btnKayitOl.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F);
             this.btnKayitOl.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(59)))), ((int)(((byte)(60)))));
             this.btnKayitOl.Location = new System.Drawing.Point(531, 461);
             this.btnKayitOl.Name = "btnKayitOl";
