@@ -46,11 +46,41 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AvukatAnaSayfa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AvukatAnaSayfa.Designer.cs">
+      <DependentUpon>AvukatAnaSayfa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AvukatBilgiGoruntuleme.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AvukatBilgiGoruntuleme.Designer.cs">
+      <DependentUpon>AvukatBilgiGoruntuleme.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AvukatGiris.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AvukatGiris.Designer.cs">
+      <DependentUpon>AvukatGiris.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AvukatListeleme.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AvukatListeleme.Designer.cs">
+      <DependentUpon>AvukatListeleme.cs</DependentUpon>
+    </Compile>
     <Compile Include="GirisSayfasi.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="GirisSayfasi.Designer.cs">
       <DependentUpon>GirisSayfasi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MuvekkilAnaSayfa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MuvekkilAnaSayfa.Designer.cs">
+      <DependentUpon>MuvekkilAnaSayfa.cs</DependentUpon>
     </Compile>
     <Compile Include="MuvekkilGiris.cs">
       <SubType>Form</SubType>
@@ -66,6 +96,24 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AvukatAnaSayfa.resx">
+      <DependentUpon>AvukatAnaSayfa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AvukatBilgiGoruntuleme.resx">
+      <DependentUpon>AvukatBilgiGoruntuleme.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AvukatGiris.resx">
+      <DependentUpon>AvukatGiris.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AvukatListeleme.resx">
+      <DependentUpon>AvukatListeleme.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MuvekkilAnaSayfa.resx">
+      <DependentUpon>MuvekkilAnaSayfa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MuvekkilKayit.resx">
+      <DependentUpon>MuvekkilKayit.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="GirisSayfasi.resx">
       <DependentUpon>GirisSayfasi.cs</DependentUpon>
     </EmbeddedResource>
@@ -100,6 +148,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\law.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-left-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-left-100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-menu-192.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
